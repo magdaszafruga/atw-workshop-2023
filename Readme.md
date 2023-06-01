@@ -48,4 +48,9 @@ running test with currents
 ```npm currents:local``` this will run test localy but will raport results to currents.dev 
 **Important** you will need to change ci-build-id run-team-test3 in package.json to after each run
 
+##Guidelines---eleganccy enkoderzy##
+*zasady*
+-Testy grupujemy według obszaru testowania--nadrzędny folder. W konkretnym obszarze będą rozpisane następujące po sobie akcje testów
+-nazewnictwo plików - według obszaru np. cart-view.cy.js
+-nazewnictwo testów- cart-view-emptylist (description- cart-view; it-empty list)
 
